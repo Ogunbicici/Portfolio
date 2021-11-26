@@ -20,7 +20,6 @@ html{
 body{
     width: 60%;
     margin: auto;
-    background-image: url("");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -69,10 +68,13 @@ p{
 }
 .navIcons a{
     margin-left: 40px;
-
 }
 .navIcons img{
     width: 70px;
+    transition: transform .3s;
+}
+.navIcons img:hover{
+    transform: scale(1.1);
 }
 .contactMe button{
     color: white;
@@ -80,15 +82,17 @@ p{
     background: #1E90FF;
     border-radius: 20px 20px 20px 20px;
     padding: 11px;
+    transition: all 0.2s ease-out;
 }
 .contactMe button:hover{
-    background: deepskyblue;
+    transform: scale(1.1);
 }
 
 /*----------------Landing-------------*/
 .landing{
     height: 100vh;
     position: relative;
+    background-image: url("Images/Background.png");
 }
 
 .landing img{
@@ -127,6 +131,10 @@ ul{
 .skills img{
     width: 100px;
     margin: 25px;
+    transition: transform .9s;
+}
+.skills img:hover{
+    transform: scale(+0.8);
 }
 
 /*----------------Work 01-------------*/
@@ -161,11 +169,19 @@ ul{
 .work ul li{
     margin-top: 20px;
 }
+.workImg{
+    width: 80px;
+    transition: transform .5s;
+}
+.workImg:hover{
+    transform: translate(135px);
+}
 .work img{
     width: 80px;
 }
 .work h1{
-    font-weight: bold;
+    margin-top: 20px;
+    font-weight: 450;
 }
 /*----------------Work 02-------------*/
 .work2{
@@ -187,7 +203,7 @@ ul{
     margin-top: 5px;
     float: right;
 }
-.work2 > .workImg{
+.work2 > .workImg2{
     width: 85%;
     float: left;
     -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
@@ -202,12 +218,18 @@ ul{
 .work2 ul li{
     margin-top: 20px;
 }
-
-.work2 ul li img{
+.workImg2{
+    transition: transform .5s;
+}
+.workImg2:hover{
+    transform: translate(-135px);
+}
+.work2 img{
     width: 80px;
 }
 .work2 h1{
-    font-weight: bold;
+    margin-top: 20px;
+    font-weight: 450;
 }
 /*----------------Work 02 and 01-------------*/
 .work a,.work2 a{
@@ -225,7 +247,6 @@ ul{
 .footerText p{
     color: #8F9EA5;
     margin-top: 35px;
-
  }
 
 .footerLogos{
@@ -236,6 +257,10 @@ ul{
     width: 70px;
     margin: 5px;
     padding: 5px;
+    transition: transform .3s;
+}
+.footerLogos img:hover{
+    transform: scale(1.1);
 }
 
 
