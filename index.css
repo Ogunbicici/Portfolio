@@ -147,6 +147,14 @@ ul{
     position: absolute;
     top: 85px;
 }
+.underDev{
+    color: red;
+    text-decoration: black;
+}
+.underline{
+    text-align: center;
+}
+
 .work > .workText > .underline{
     display: block;
     background-color: #1E90FF;
