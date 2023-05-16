@@ -92,11 +92,10 @@ p{
 .landing{
     height: 100vh;
     position: relative;
-    background-image: url("Images/Background.png");
 }
 
 .landing img{
-    width: 400px;
+    width: 500px;
 }
 .landingWrapper{
     display: flex;
@@ -351,6 +350,7 @@ ul{
     .landing{
         display: block;
         background: none;
+        height: 500px;
     }
     .footer{
         margin-top: 100px;
